@@ -1,0 +1,30 @@
+<footer class="footer">
+    <div class="footer-content">
+        <div class="adresse">
+            <p>Volley Ball Ollioulais<br />
+                34 Allée des Bleuets<br />
+                83 190 Ollioules<br />
+            </p>
+        </div>
+        <div class="liens">
+            <p><u><a href="/pages/nousContacter.html">Nous contacter</a></p></u><br/>
+        </div>
+        <div class="réseaux">
+            <h2>Réseaux</h2>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/volley.vbollioulais" target="_blank">
+                    <img src="/public/assets/img/facebook.png" alt="Facebook" class="social-icon">
+                </a>
+                <a href="https://www.instagram.com/volley.ball.ollioulais/" target="_blank">
+                    <img src="/public/assets/img/instagram.png" alt="Instagram" class="social-icon">
+                </a>
+                <a href="https://www.youtube.com/@VolleyBallOllioulais" target="_blank">
+                    <img src="/public/assets/img/Youtube.png" alt="Youtube" class="social-icon">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <p>&copy; 2026 Site VBO / <a href="/vCard/vCard-DG-Dev.html" style="color: var(--bg-dark);">DG-Dev</a>.Tous droits réservés.</p>
+    </div>
+</footer>
