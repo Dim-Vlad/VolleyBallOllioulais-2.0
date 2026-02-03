@@ -2,18 +2,43 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>VBO</title>
-
+    <title>Volley Ball Ollioulais</title>
     <link rel="stylesheet" href="/public/assets/css/style.css">
 </head>
 
 <body>
 <header>
-    <h1>Volley Ball Ollioulais</h1>
-    <nav>
-        <ul>
-            <li><a href="/">Accueil</a></li>
-            <li><a href="/about">À propos</a></li>
-            <li><a href="/contact">Contact</a></li>
-        </ul>
-    </nav>
+<nav class="navbar">
+    <div class="navbar-container-menu">
+        <a href="/" class="navbar-brand">
+            <img src="/public/assets/img/LogoVBO..png" alt="Logo du club" class="navbar-logo"> 
+            VOLLEY BALL OLLIOULAIS
+        </a>
+    <button class="navbar-toggler">☰</button>
+        <div class="navbar-links" id="navbarLinks">
+            <a href="/">Accueil</a>
+            <a href="/pages/leClub/nosEquipes.html">Nos équipes</a>
+            <div class="dropdown">
+                <button>Entrainement</button>
+                    <div class="dropdown-content">
+                        <a href="/pages/leClub/licence.html">Licences</a>
+                        <a href="/pages/alerte.html">Planning</a>
+                        <a href="/pages/leClub/espace-entraineur.html">Espace Entraineurs</a>
+                    </div>
+            </div>
+            <div class="dropdown">
+                <button>Le club</button>
+                    <div class="dropdown-content">
+                        <a href="/pages/leClub/medical.html">Médical</a>
+                        <a href="/pages/leClub/remboursement.html">Remboursements</a>
+                        <a href="/pages/leClub/staff.html">Staff</a>
+                        <a href="/pages/leClub/commissions.html">Commissions</a>
+                        <a href="/pages/evenements/evenements.html">Évènements</a>
+                    </div>
+            </div>
+                        <a href="/pages/galerie/galerie.html">Galerie</a>
+                        <a href="/pages/partenaires/partenaires.html">Partenaires</a>
+                        <a href="/pages/boutique.html">Boutique</a>
+        </div>
+    </div>
+</nav>
